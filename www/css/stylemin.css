@@ -1,0 +1,65 @@
+#about h2, #contact h2, #services h2, #team h2{text-transform:uppercase;}
+.section-header, .about-header, .contact-header{padding-bottom:75px;}
+.top-nav-collapse{opacity:0.97;}
+li.active{border-bottom:1px solid #00f !important;}
+#intro{background:url('https://s3.eu-central-1.amazonaws.com/juristconsult.in.ua/images/main.jpg');background-attachment:fixed;background-size:cover;color:#fff;}
+#intro h1{font-weight:700;text-transform:uppercase;margin-top:70px;}
+#intro a{margin:35px 15px}
+.services-section .service{transition:all 700ms ease 0s;}
+.services-section .service a{color:inherit;text-decoration:none;}
+.services-section .service:hover{color:#18bc9c;cursor:pointer;}
+.service-icon{font-size:55px;float:left;margin-right:25px;width:55px;line-height:1;}
+.service{text-align:left;margin-bottom:55px;}
+.service h4{font-weight:700;}
+.service p{color:#808080;}
+.team-member .profile-pic{border-radius:10%;width:174px;height:174px;margin:auto auto 25px;overflow:hidden;}
+.team-member .position{font-size:13px;margin-top:15px;}
+.team-member .social-icons{margin-bottom:25px;}
+.team-member .social-icons ul{padding-left:0px !important;}
+.team-member .social-icons ul li{display:inline-block;line-height:32px;margin:6px;list-style:outside none none;}
+.team-member .social-icons ul li a{font-size:18px;color:#808080;transition:all 700ms ease 0s;}
+.team-member .social-icons ul li a:hover{font-size:18px;color:#18bc9c;}
+.team-member{margin-top:75px;}
+.member-details h4{font-weight:700;}
+#contact{background:url('https://s3.eu-central-1.amazonaws.com/juristconsult.in.ua/images/second.jpg');background-attachment:fixed;background-size:cover;color:#fff;}
+#contact .container{background-color:rgba(0, 0, 0, 0.4);border-radius:5px;}
+#contact h1{font-weight:700;}
+#contact input{font-weight:bold;}
+.form-textarea{margin-top:25px;}
+.form-textarea textarea{font-size:16px;}
+.form-button{margin:15px;text-align:right;}
+#sub-intro ul{text-align:left;font-size:16px;}
+#sub-intro p{text-align:right;}
+.sub-section h1{margin-bottom:25px;}
+.footer-below a, .footer-contact a{text-decoration:none;color:#fff;transition:all 700ms ease 0s;}
+.footer-below a:hover, .footer-contact a:hover{color:#18bc9c;}
+.footer-contact p{font-size:16px;}
+body{width:100%;height:100%;}
+html{width:100%;height:100%;}
+@media(min-width:767px){.navbar{padding:20px 0;-webkit-transition:background .5s ease-in-out,padding .5s ease-in-out;-moz-transition:background .5s ease-in-out,padding .5s ease-in-out;transition:background .5s ease-in-out,padding .5s ease-in-out;}
+.top-nav-collapse{padding:0;}
+}
+.intro-section{height:100%;text-align:center;background:#fff;}
+.intro-main{height:100%;padding-top:120px;padding-bottom:30px;background-color:rgba(0, 0, 0, 0.4);}
+.sub-section{padding-top:100px;padding-bottom:30px;text-align:center;background:#fff;}
+.about-section{padding-top:50px;padding-bottom:30px;text-align:center;background:#eee;}
+.services-section{padding-top:50px;padding-bottom:30px;text-align:center;background:#fff;}
+.team-section{padding-top:50px;padding-bottom:30px;text-align:center;background:#fff;}
+.contact-section{padding-top:50px;padding-bottom:30px;text-align:center;background:#eee;}
+.btn-outline{margin-top:15px;border:solid 2px #fff;font-size:20px;color:#fff;background:0 0;transition:all .3s ease-in-out;}
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active{border:solid 2px #fff;color:#18bc9c;background:#fff;}
+footer{color:#fff;}
+footer h3{margin-bottom:30px;}
+footer .footer-above{padding-top:50px;background-color:#2c3e50;}
+footer .footer-col{margin-bottom:50px;}
+footer .footer-below{padding:25px 0;background-color:#233140;}
+.btn-social{display:inline-block;width:50px;height:50px;border:2px solid #fff;border-radius:100%;text-align:center;font-size:20px;line-height:45px;}
+.btn:focus,
+.btn:active,
+.btn.active{outline:0;}
+.scroll-top{z-index:1049;position:fixed;right:2%;bottom:2%;width:50px;height:50px;}
+.scroll-top .btn{width:50px;height:50px;border-radius:100%;font-size:20px;line-height:28px;}
+.scroll-top .btn:focus{outline:0;}
